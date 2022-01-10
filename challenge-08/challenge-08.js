@@ -92,7 +92,7 @@ var sum = calculator('+');
 Agora `sum` é uma função. Mostre no console a soma de dois números, usando ela.
 */
 
-console.log(sum(10,3));
+console.log(sum(10,3)); //13
 
 /*
 Agora, declare algumas variáveis com os nomes `subtraction`, `multiplication`,
@@ -108,7 +108,7 @@ var mod = calculator('%');
 Faça uma operação com cada uma das funções criadas acima, mostrando o resultado
 no console.
 */
-console.log(subtraction(18,8));
-console.log(multiplication(100,3));
-console.log(division(60,5));
-console.log(mod(27,6));
+console.log(subtraction(18,8)); //10
+console.log(multiplication(100,3)); //300
+console.log(division(60,5)); //12
+console.log(mod(27,6)); //3

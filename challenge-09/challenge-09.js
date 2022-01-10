@@ -70,7 +70,6 @@ que foram passadas para a primeira função `calculator`.
         return callback(a, b);
     };
   }
-  calculator();
 
 /*
 Declare uma variável chamada `sum`, e atribua a ela a função `calculator`,

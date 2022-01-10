@@ -153,8 +153,8 @@
   var subtraction = calculator(operationSignal);
 
   if(subtraction) {
-    a = 8;
-    b = 3;
+    a = 9;
+    b = 2;
     console.log( showOperationMessage( operationSignal, a, b ), subtraction(a, b));
   } else {
     console.log(showErrorMessage(operationSignal))
@@ -199,12 +199,12 @@
   */
 
   var operationSignal = 'x';
-  var mod = calculator(operationSignal)
+  var invalid = calculator(operationSignal)
 
-  if(mod) {
+  if(invalid) {
     a = 3;
     b = 3;
-    console.log( showOperationMessage( operationSignal, a, b ), mod(a, b));
+    console.log( showOperationMessage( operationSignal, a, b ), invalid(a, b));
   } else {
     console.log(showErrorMessage(operationSignal))
   }
