@@ -74,8 +74,6 @@
   }
   console.log( 'De 0 a 10: ' + numbers );
 
-  // ?
-
   /*
   Faça outro loop de 0 a 20, que adicione a um array chamado `numbers` (já
   criado acima, só precisa ser reiniciado) números de 0 a 20, inclusive
@@ -83,11 +81,11 @@
   Mostrar no console os números do array.
   */
   var numbers = [];
-  for(var i = 0; i < 20; i++) {
-    if(i % 2 === 0) {
-      numbers.push(i);
+  for(var i = 0; i <= 20; i++) {
+    if(i % 2 !== 0) {
       continue;
     }
+    numbers.push(i);
   }
   console.log( 'Pares de 0 a 20: ' + numbers );
 
